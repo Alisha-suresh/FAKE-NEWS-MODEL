@@ -1,0 +1,19 @@
+train_images (60000, 28, 28)
+train_labels (60000, 10)
+test_images (10000, 28, 28)
+test_labels (10000, 10)
+test_images (10000, 28, 28)
+test_labels (10000, 10)
+train_images (20000, 28, 28)
+train_labels (20000, 10)
+
+test_images (10000, 28, 28)
+test_labels (10000, 10)
+train_images (20000, 28, 28)
+train_labels (20000, 10)
+
+test_images (10000, 28, 28)
+test_labels (10000, 10)
+train_images (20000, 28, 28)
+train_labels (20000, 10)
+

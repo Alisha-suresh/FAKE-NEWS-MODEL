@@ -1,0 +1,56 @@
+Looking for files in: ./clients/
+Found files: ['./clients\\device03_model_v0.block', './clients\\device0a_model_v0.block', './clients\\device0b_model_v0.block', './clients\\device11_model_v0.block', './clients\\device13_model_v0.block', './clients\\device18_model_v0.block', './clients\\device1c_model_v0.block', './clients\\device1d_model_v0.block', './clients\\device21_model_v0.block', './clients\\device25_model_v0.block', './clients\\device29_model_v0.block', './clients\\device32_model_v0.block', './clients\\device37_model_v0.block', './clients\\device39_model_v0.block', './clients\\device3c_model_v0.block', './clients\\device44_model_v0.block', './clients\\device45_model_v0.block', './clients\\device49_model_v0.block', './clients\\device4d_model_v0.block', './clients\\device5c_model_v0.block', './clients\\device5d_model_v0.block', './clients\\device5f_model_v0.block', './clients\\device60_model_v0.block', './clients\\device65_model_v0.block', './clients\\device75_model_v0.block', './clients\\device7a_model_v0.block', './clients\\device7c_model_v0.block', './clients\\device84_model_v0.block', './clients\\device91_model_v0.block', './clients\\device92_model_v0.block', './clients\\device9c_model_v0.block', './clients\\device9e_model_v0.block', './clients\\devicea8_model_v0.block', './clients\\devicea9_model_v0.block', './clients\\devicebc_model_v0.block', './clients\\devicec7_model_v0.block', './clients\\deviceca_model_v0.block', './clients\\devicece_model_v0.block', './clients\\devicecf_model_v0.block', './clients\\deviced0_model_v0.block', './clients\\deviced9_model_v0.block', './clients\\devicedb_model_v0.block', './clients\\devicedf_model_v0.block', './clients\\devicee6_model_v0.block', './clients\\devicee9_model_v0.block', './clients\\deviceed_model_v0.block', './clients\\deviceee_model_v0.block', './clients\\devicef0_model_v0.block', './clients\\devicef3_model_v0.block', './clients\\devicef7_model_v0.block', './clients\\devicefb_model_v0.block', './clients\\devicefc_model_v0.block']
+Extracted Device ID: 03 from filename: device03_model_v0.block
+Extracted Device ID: 0a from filename: device0a_model_v0.block
+Extracted Device ID: 0b from filename: device0b_model_v0.block
+Extracted Device ID: 11 from filename: device11_model_v0.block
+Extracted Device ID: 13 from filename: device13_model_v0.block
+Extracted Device ID: 18 from filename: device18_model_v0.block
+Extracted Device ID: 1c from filename: device1c_model_v0.block
+Extracted Device ID: 1d from filename: device1d_model_v0.block
+Extracted Device ID: 21 from filename: device21_model_v0.block
+Extracted Device ID: 25 from filename: device25_model_v0.block
+Extracted Device ID: 29 from filename: device29_model_v0.block
+Extracted Device ID: 32 from filename: device32_model_v0.block
+Extracted Device ID: 37 from filename: device37_model_v0.block
+Extracted Device ID: 39 from filename: device39_model_v0.block
+Extracted Device ID: 3c from filename: device3c_model_v0.block
+Extracted Device ID: 44 from filename: device44_model_v0.block
+Extracted Device ID: 45 from filename: device45_model_v0.block
+Extracted Device ID: 49 from filename: device49_model_v0.block
+Extracted Device ID: 4d from filename: device4d_model_v0.block
+Extracted Device ID: 5c from filename: device5c_model_v0.block
+Extracted Device ID: 5d from filename: device5d_model_v0.block
+Extracted Device ID: 5f from filename: device5f_model_v0.block
+Extracted Device ID: 60 from filename: device60_model_v0.block
+Extracted Device ID: 65 from filename: device65_model_v0.block
+Extracted Device ID: 75 from filename: device75_model_v0.block
+Extracted Device ID: 7a from filename: device7a_model_v0.block
+Extracted Device ID: 7c from filename: device7c_model_v0.block
+Extracted Device ID: 84 from filename: device84_model_v0.block
+Extracted Device ID: 91 from filename: device91_model_v0.block
+Extracted Device ID: 92 from filename: device92_model_v0.block
+Extracted Device ID: 9c from filename: device9c_model_v0.block
+Extracted Device ID: 9e from filename: device9e_model_v0.block
+Extracted Device ID: a8 from filename: devicea8_model_v0.block
+Extracted Device ID: a9 from filename: devicea9_model_v0.block
+Extracted Device ID: bc from filename: devicebc_model_v0.block
+Extracted Device ID: c7 from filename: devicec7_model_v0.block
+Extracted Device ID: ca from filename: deviceca_model_v0.block
+Extracted Device ID: ce from filename: devicece_model_v0.block
+Extracted Device ID: cf from filename: devicecf_model_v0.block
+Extracted Device ID: d0 from filename: deviced0_model_v0.block
+Extracted Device ID: d9 from filename: deviced9_model_v0.block
+Extracted Device ID: db from filename: devicedb_model_v0.block
+Extracted Device ID: df from filename: devicedf_model_v0.block
+Extracted Device ID: e6 from filename: devicee6_model_v0.block
+Extracted Device ID: e9 from filename: devicee9_model_v0.block
+Extracted Device ID: ed from filename: deviceed_model_v0.block
+Extracted Device ID: ee from filename: deviceee_model_v0.block
+Extracted Device ID: f0 from filename: devicef0_model_v0.block
+Extracted Device ID: f3 from filename: devicef3_model_v0.block
+Extracted Device ID: f7 from filename: devicef7_model_v0.block
+Extracted Device ID: fb from filename: devicefb_model_v0.block
+Extracted Device ID: fc from filename: devicefc_model_v0.block
+CSV file created with 52 entries.
+CSV file created with 52 entries.

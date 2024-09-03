@@ -1,0 +1,94 @@
+Algorithm: DistilBERT Tokenization
+Input: Text data (documents, articles)
+Output: Tokenized text (tokens for each document)
+
+1. Load DistilBERT tokenizer
+2. For each document in the text data:
+    a. Convert document into lowercase
+    b. Use DistilBERT tokenizer to tokenize the document
+    c. Pad tokens to the required sequence length
+3. Return tokenized text
+
+
+Algorithm: PCA Dimensionality Reduction
+Input: Feature matrix (X) with high dimensionality
+Output: Reduced feature matrix (X_reduced)
+
+1. Standardize the feature matrix (X) to have mean 0 and variance 1
+2. Compute the covariance matrix of X
+3. Perform eigen decomposition on the covariance matrix
+4. Select the top K eigenvectors corresponding to the largest eigenvalues
+5. Transform the original feature matrix X using the top K eigenvectors to get X_reduced
+6. Return X_reduced
+
+
+Algorithm: Stacking Ensemble Model
+Input: Training data (X_train, y_train), Test data (X_test)
+Output: Final predictions (y_pred)
+
+1. Train Logistic Regression on X_train, y_train
+2. Train Random Forest on X_train, y_train
+3. Train a DistilBERT model to generate embeddings from the text
+4. Concatenate outputs from Logistic Regression, Random Forest, and DistilBERT embeddings
+5. Train a meta-classifier on the concatenated outputs
+6. For prediction on X_test:
+    a. Generate predictions from Logistic Regression
+    b. Generate predictions from Random Forest
+    c. Generate DistilBERT embeddings from the text
+    d. Concatenate the predictions and embeddings
+    e. Use the meta-classifier to generate final predictions (y_pred)
+7. Return y_pred
+
+
+
+Algorithm: TF-IDF Vectorization
+Input: Text data (documents, articles)
+Output: TF-IDF feature matrix
+
+1. Initialize TF-IDF vectorizer
+2. For each document in the text data:
+    a. Calculate term frequency for each word in the document
+    b. Calculate inverse document frequency for each word across all documents
+    c. Multiply term frequency by inverse document frequency to get TF-IDF score
+3. Construct feature matrix with TF-IDF scores for each document
+4. Return TF-IDF feature matrix
+
+
+Algorithm: Simple Neural Network
+Input: TF-IDF feature matrix, Labels (y)
+Output: Trained neural network model
+
+1. Define neural network architecture:
+    a. Input layer: Dimension equal to TF-IDF feature length
+    b. Dense layer 1: Fully connected, ReLU activation
+    c. Dropout layer: Dropout rate to prevent overfitting
+    d. Dense layer 2: Fully connected, ReLU activation
+    e. Output layer: Fully connected, Sigmoid activation for binary classification
+2. Compile the model with appropriate loss function and optimizer
+3. Train the model on local TF-IDF features and labels (y)
+4. Return trained model
+
+
+Algorithm: Federated Averaging (FedAvg)
+Input: Global model parameters, Local datasets at each client
+Output: Updated global model parameters
+
+1. Initialize global model parameters
+2. For each communication round:
+    a. Distribute global model parameters to selected clients
+    b. Each client trains the model on its local dataset
+    c. Each client sends updated model parameters back to the server
+    d. Server aggregates all client updates (weighted by the size of each local dataset)
+    e. Update global model parameters with the aggregated values
+3. Return the final global model
+
+
+Algorithm: Pre-trained Model Integration
+Input: Centralized model weights, Federated model architecture
+Output: Pre-trained federated model
+
+1. Initialize the federated model with the same architecture as the centralized model
+2. Load the weights from the trained centralized model
+3. Assign the pre-trained weights to the federated model
+4. Begin federated learning with the pre-trained model, using FedAvg for updates
+5. Return the final federated model after training

@@ -1,0 +1,100 @@
+absl-py==2.1.0
+annotated-types==0.5.0  # Python 3.10 specific, reverting to compatible version
+astor==0.7.1
+asttokens==2.4.1  # Only in FAKENEWS, compatible with 3.7.9
+attrs==23.1.0  # Only in FAKENEWS, compatible with 3.7.9
+autopep8==2.0.4  # Only in FAKENEWS, compatible with 3.7.9
+blis==0.7.11
+blinker==1.6.3  # Only in FAKENEWS, compatible with 3.7.9
+ca-certificates==2024.7.2
+cachetools==5.3.2  # Only in FAKENEWS, compatible with 3.7.9
+catalogue==2.0.10
+catboost==1.2.5
+certifi==2023.7.22  # Using latest version from FAKENEWS
+cffi==1.16.0  # Only in FAKENEWS, compatible with 3.7.9
+charset-normalizer==3.3.2  # Only in FAKENEWS, compatible with 3.7.9
+click==8.1.7
+cloudpathlib==0.18.1  # Using latest version from NEWENV
+colorama==0.4.6
+comm==0.2.2  # Only in FAKENEWS, compatible with 3.7.9
+confection==0.1.5  # Using latest version from NEWENV
+contourpy==1.2.1  # Only in FAKENEWS, compatible with 3.7.9
+cycler==0.12.1  # Using latest version from FAKENEWS
+cymem==2.0.8
+debugpy==1.8.5  # Only in FAKENEWS, compatible with 3.7.9
+decorator==5.1.1  # Only in FAKENEWS, compatible with 3.7.9
+dpcpp-cpp-rt==2024.2.1  # Only in NEWENV
+en-core-web-sm==3.7.1
+exceptiongroup==1.2.2  # Only in FAKENEWS, compatible with 3.7.9
+executing==2.0.1  # Only in FAKENEWS, compatible with 3.7.9
+fftw==3.3.9  # Only in NEWENV
+flask==3.0.0  # Using latest version from FAKENEWS
+flit-core==3.6.0  # Only in NEWENV
+fonttools==4.53.1  # Only in FAKENEWS, compatible with 3.7.9
+freetype==2.12.1  # Only in NEWENV
+gast==0.2.2  # Only in NEWENV
+gensim==4.3.3  # Using latest version from FAKENEWS
+gevent==23.9.1  # Only in FAKENEWS, compatible with 3.7.9
+gitdb==4.0.11  # Only in FAKENEWS, compatible with 3.7.9
+gitpython==3.1.40  # Only in FAKENEWS, compatible with 3.7.9
+google-pasta==0.2.0  # Only in NEWENV
+grpcio==1.15.0  # Only in NEWENV
+h5py==2.8.0  # Only in NEWENV
+icc_rt==2022.1.0  # Only in NEWENV
+icu==58.2  # Only in NEWENV
+idna==3.4  # Using latest version from FAKENEWS
+imbalanced-learn==0.12.3
+importlib-metadata==6.8.0  # Using latest version from FAKENEWS
+importlib_metadata==8.2.0  # Using latest version from FAKENEWS
+intel-cmplr-lib-rt==2024.2.1  # Only in NEWENV
+intel-cmplr-lib-ur==2024.2.1  # Only in NEWENV
+intel-cmplr-lic-rt==2024.2.1  # Only in NEWENV
+intel-opencl-rt==2024.2.1  # Only in NEWENV
+intel-openmp==2024.2.1  # Only in NEWENV
+intel-sycl-rt==2024.2.1  # Only in NEWENV
+ipykernel==6.29.5  # Only in FAKENEWS, compatible with 3.7.9
+ipython==8.26.0  # Only in FAKENEWS, compatible with 3.7.9
+itsdangerous==2.1.2  # Using latest version from FAKENEWS
+jedi==0.19.1  # Only in FAKENEWS, compatible with 3.7.9
+jinja2==3.1.2  # Using latest version from FAKENEWS
+joblib==1.3.2
+jpeg==9e  # Only in NEWENV
+jsonschema==4.19.2  # Only in FAKENEWS, compatible with 3.7.9
+jsonschema-specifications==2023.7.1  # Only in FAKENEWS, compatible with 3.7.9
+jupyter_client==8.6.2  # Only in FAKENEWS, compatible with 3.7.9
+jupyter_core==5.7.2  # Only in FAKENEWS, compatible with 3.7.9
+keras-applications==1.0.8  # Only in NEWENV
+keras-preprocessing==1.0.5  # Only in NEWENV
+kiwisolver==1.4.5  # Using latest version from FAKENEWS
+krb5==1.21.3  # Only in FAKENEWS, compatible with 3.7.9
+langcodes==3.3.0
+libffi==3.4.4  # Only in FAKENEWS, compatible with 3.7.9
+libpng==1.6.39  # Only in NEWENV
+libsodium==1.0.18  # Only in FAKENEWS, compatible with 3.7.9
+lightgbm==4.5.0
+markdown==3.0.1  # Only in NEWENV
+markdown-it-py==3.0.0  # Using latest version from FAKENEWS
+markupsafe==2.1.3  # Using latest version from FAKENEWS
+matplotlib==3.9.2  # Using latest version from FAKENEWS
+matplotlib-inline==0.1.7  # Only in FAKENEWS, compatible with 3.7.9
+mdurl==0.1.2
+mkl==2024.2.1  # Only in NEWENV
+mkl-fft==1.3.1  # Only in NEWENV
+mkl-service==2.4.0  # Only in NEWENV
+mkl_random==1.2.2  # Only in NEWENV
+murmurhash==1.0.10
+nest-asyncio==1.6.0  # Only in FAKENEWS, compatible with 3.7.9
+nltk==3.8.1
+numpy==1.21.6  # Using version from NEWENV, since it's compatible with 3.7.9
+openssl==1.1.1w  # Using version from NEWENV, compatible with 3.7.9
+opt-einsum==3.3.0  # Only in NEWENV
+packaging==24.0  # Using latest version from NEWENV
+pandas==1.3.5  # Using version from NEWENV, compatible with 3.7.9
+parso==0.8.4  # Only in FAKENEWS, compatible with 3.7.9
+pickleshare==0.7.5  # Only in FAKENEWS, compatible with 3.7.9
+pillow==10.1.0  # Only in FAKENEWS, compatible with 3.7.9
+pip==22.3.1  # Using version from NEWENV
+platformdirs==4.2.2  # Only in FAKENEWS, compatible with 3.7.9
+plotly==5.23.0  # Using latest version from FAKENEWS
+preshed==3.0.9
+prompt-toolkit==3.0.47  #

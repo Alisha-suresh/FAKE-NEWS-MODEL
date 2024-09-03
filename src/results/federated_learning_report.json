@@ -1,0 +1,14 @@
+{
+  "final_metrics": {
+    "accuracy": 0.8014806156243912,
+    "precision": 0.7387057387057387,
+    "recall": 0.8280109489051095,
+    "f1": 0.7808130780813078,
+    "auc": 0.8048589256596272
+  },
+  "total_rounds": 360,
+  "clients_per_round": 8,
+  "input_dim": 100,
+  "dataset_path": "datasets/combined_dataset.csv",
+  "model_structure_path": "model/stacking_ensemble_structure.json"
+}

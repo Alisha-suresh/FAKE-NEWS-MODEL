@@ -1,0 +1,25 @@
+Looking for files in: ./clients/
+Found files: ['./clients\\device0b_model_v0.block', './clients\\device11_model_v0.block', './clients\\device1c_model_v0.block', './clients\\device1d_model_v0.block', './clients\\device25_model_v0.block', './clients\\device44_model_v0.block', './clients\\device45_model_v0.block', './clients\\device4d_model_v0.block', './clients\\device5d_model_v0.block', './clients\\device60_model_v0.block', './clients\\device7a_model_v0.block', './clients\\device7c_model_v0.block', './clients\\device92_model_v0.block', './clients\\device9c_model_v0.block', './clients\\devicebc_model_v0.block', './clients\\devicec7_model_v0.block', './clients\\devicedb_model_v0.block', './clients\\devicee6_model_v0.block', './clients\\devicee9_model_v0.block', './clients\\devicef0_model_v0.block', './clients\\devicefb_model_v0.block', './clients\\devicefc_model_v0.block']
+Extracted Device ID: 0b from filename: device0b_model_v0.block
+Extracted Device ID: 11 from filename: device11_model_v0.block
+Extracted Device ID: 1c from filename: device1c_model_v0.block
+Extracted Device ID: 1d from filename: device1d_model_v0.block
+Extracted Device ID: 25 from filename: device25_model_v0.block
+Extracted Device ID: 44 from filename: device44_model_v0.block
+Extracted Device ID: 45 from filename: device45_model_v0.block
+Extracted Device ID: 4d from filename: device4d_model_v0.block
+Extracted Device ID: 5d from filename: device5d_model_v0.block
+Extracted Device ID: 60 from filename: device60_model_v0.block
+Extracted Device ID: 7a from filename: device7a_model_v0.block
+Extracted Device ID: 7c from filename: device7c_model_v0.block
+Extracted Device ID: 92 from filename: device92_model_v0.block
+Extracted Device ID: 9c from filename: device9c_model_v0.block
+Extracted Device ID: bc from filename: devicebc_model_v0.block
+Extracted Device ID: c7 from filename: devicec7_model_v0.block
+Extracted Device ID: db from filename: devicedb_model_v0.block
+Extracted Device ID: e6 from filename: devicee6_model_v0.block
+Extracted Device ID: e9 from filename: devicee9_model_v0.block
+Extracted Device ID: f0 from filename: devicef0_model_v0.block
+Extracted Device ID: fb from filename: devicefb_model_v0.block
+Extracted Device ID: fc from filename: devicefc_model_v0.block
+CSV file created with 22 entries.

@@ -1,0 +1,58 @@
+2024-08-18 07:20:13.055664: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2024-08-18 07:20:13.055685: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:11: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:32: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2024-08-18 07:20:14.341081: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2024-08-18 07:20:14.341103: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2024-08-18 07:20:14.343001: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: LAPTOP-VT2S4JK4
+2024-08-18 07:20:14.343042: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: LAPTOP-VT2S4JK4
+2024-08-18 07:20:14.343324: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:41: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:60: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:98: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:99: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From C:\DISSERT-COMBINE\blockchain-federated-learning-master\src\federatedlearner.py:155: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+--------------
+2107a205bcaa4f809eee4429d1d7b1d8  Dataset info:
+test_images (10000, 784)
+test_labels (10000, 10)
+train_images (11000, 784)
+train_labels (11000, 10)
+--------------
+21 device_id
+--------------
+Accuracy global model 0.1182
+Step 1, Minibatch Loss= 9427.9307, Training Accuracy= 0.465
+Optimization Finished!
+Step 2, Minibatch Loss= 11149.6934, Training Accuracy= 0.411
+Optimization Finished!
+Step 3, Minibatch Loss= 15916.3184, Training Accuracy= 0.269
+Optimization Finished!
+Step 4, Minibatch Loss= 16013.4854, Training Accuracy= 0.361
+Optimization Finished!
+Step 5, Minibatch Loss= 11698.7168, Training Accuracy= 0.478
+Optimization Finished!
+Step 6, Minibatch Loss= 7097.3330, Training Accuracy= 0.611
+Optimization Finished!
+Step 7, Minibatch Loss= 3963.0615, Training Accuracy= 0.652
+Optimization Finished!
+Step 8, Minibatch Loss= 2615.7925, Training Accuracy= 0.675
+Optimization Finished!
+Step 9, Minibatch Loss= 2762.0034, Training Accuracy= 0.663
+Optimization Finished!
+Step 10, Minibatch Loss= 3096.0872, Training Accuracy= 0.641
+Optimization Finished!
+Accuracy local update---------21--------------: 0.6445
